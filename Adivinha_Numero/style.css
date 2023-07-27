@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;700;800&display=swap');
+:root{
+    --fonte-principal: 'Schibsted Grotesk', sans-serif;
+    --preto: black;
+    --gradinete:linear-gradient(to right,#32DB5F,#2A6138);
+    --marrom: #9A3412;
+}
+body{
+    color: white;
+    font-family: var(--fonte-principal);
+    background: var(--gradinete);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+    padding: 10vh;
+   
+    
+}
+
+.tela__titulo{
+    font-size: 4vh;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 3vh;
+}
+.tela__imagem{
+    margin: 1.5em;
+    position:relative;
+    width: 25vh;
+    height: auto;
+    filter: drop-shadow(10px 0 30px white);
+}
+.tela__imagem:hover{
+    top:-8px;box-shadow:0 2px 2px transparent;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.mensagem {
+    font-size: 1.5em;
+   
+}
+
+.box {
+    border: 2px solid var(--marrom);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.gif{
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: gray;
+  }
